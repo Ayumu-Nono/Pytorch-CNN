@@ -2,6 +2,8 @@
 
 pytorchでCNNを実装する。
 
+参考：[https://qiita.com/mathlive/items/8e1f9a8467fff8dfd03c](https://qiita.com/mathlive/items/8e1f9a8467fff8dfd03c)
+
 ## 前提
 
 tensorflowはやったことある。でもpytorchの方がイケてるって聞いたもんで。。。
