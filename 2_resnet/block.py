@@ -23,7 +23,6 @@ class Block(nn.Module):
 
         self.relu3 = nn.ReLU()
 
-
     def forward(self, x):
         h = self.conv1(x)
         h = self.bn1(h)
@@ -45,7 +44,6 @@ class Block(nn.Module):
             return self._projection(channel_in, channel_out)
         else:
             return lambda x: x
-
 
     def _projection(self, channel_in, channel_out):
         return nn.Conv2d(channel_in, channel_out, kernel_size=(1, 1), padding=0)
