@@ -11,7 +11,7 @@ BATCH_SIZE = 100
 WEIGHT_DECAY = 0.005
 LEARNING_RATE = 1e-4
 EPOCH = 100
-PATH = "data"
+PATH = "../data"
 trans = torchvision.transforms.ToTensor()
 
 trainset = torchvision.datasets.MNIST(root=PATH, train=True, download=True, transform=trans)
